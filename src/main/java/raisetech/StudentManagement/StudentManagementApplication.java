@@ -11,12 +11,17 @@ public class StudentManagementApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(StudentManagementApplication.class, args);
+
+		System.out.println("こんにちは");
 	}
 
 	@GetMapping("/hello")
 	public String hello(){
 		return "gao!gao!";
+
 	}
+
+
 
 
 
